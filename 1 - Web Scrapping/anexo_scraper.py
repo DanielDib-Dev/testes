@@ -21,7 +21,8 @@ logging.basicConfig(
 
 BASE_URL = 'https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos'
 KEYWORDS = ['anexo i', 'anexo ii']
-OUTPUT_DIR = r'C:\Teste_de_web_scrapping'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = SCRIPT_DIR
 ZIP_NAME = 'anexos_rol_procedimentos.zip'
 
 def setup_directories() -> Tuple[str, str]:
