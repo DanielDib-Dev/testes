@@ -25,7 +25,7 @@ logging.basicConfig(
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-WEB_SCRAPING_DIR = os.path.join(PROJECT_DIR, "1 - Web Scrapping")
+WEB_SCRAPING_DIR = os.path.join(PROJECT_DIR, "1_web_scrapping_test")
 INPUT_DIR = WEB_SCRAPING_DIR
 INPUT_ZIP = 'anexos_rol_procedimentos.zip'
 
