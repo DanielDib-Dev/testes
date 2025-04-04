@@ -22,3 +22,7 @@ Além disso, notei que um dos CSVs possuía um formato de data diferente, e isso
 # Rodar Query
 
 Para utilizar a query é necessário mudar o diretório de acordo com onde você clonou o repositório.
+
+# Erro
+
+Consegui criar com sucesso o banco de dados e as tabelas, porém cometi algum erro na hora de dar os loads dos arquivos csv, gerando valores errados nas queries analíticas.
